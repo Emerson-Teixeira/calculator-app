@@ -183,7 +183,7 @@ export default function Keyboard({ setResult, result }) {
         typeKey={"commonKeys"}
         onClick={(e) => {
           e.preventDefault();
-          return handleClick("x");
+          return handleClick("*");
         }}
       >
         X
