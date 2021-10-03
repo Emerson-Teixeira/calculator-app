@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
 `;
 export const Label = styled.div`
   font-size: 0.4em;
-  font-weight: 750;
+  font-weight: 700;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.headerColor};
 `;
@@ -51,6 +51,6 @@ export const FlexRowSpaceBetween = styled.div`
 `;
 export const Number = styled.div`
   font-size: 0.4em;
-  font-weight: 750;
+  font-weight: 700;
   color: ${({ theme }) => theme.headerColor};
 `;
